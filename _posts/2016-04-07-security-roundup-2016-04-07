@@ -1,3 +1,13 @@
+---
+layout: post
+title: Security Roundup 2016-04-07
+author: Sean
+date: '2016-04-07'
+tags:
+- security
+- roundup
+---
+
 Latest batch of interesting Security news.
 
 Cloudflare has written an interesting article on the [Trouble With Tor](http://bit.ly/25z9hRj). Tor is an important tool for anonymity on the internet, but 94% of requests Cloudflare sees from Tor are malicious. Cloudflare offers an honest discussion regarding Tor, how they balance protecting their customers while still respecting the anonymity and usefulness Tor can provide, and how they are hoping to improve their methods to that end.
