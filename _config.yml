@@ -2,6 +2,9 @@
 # This file contains configuration flags to customize your site
 #
 
+permalink: /:year/:month/:day/:title
+future: true
+
 # Name of your site (displayed in the header)
 name: Seanstoppable
 
