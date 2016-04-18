@@ -3,7 +3,7 @@ layout: post
 title: Security Roundup - The Beginning
 author: Sean
 category: security-roundup
-date: '2016-02-01'
+date: '2016-01-01'
 ---
 
 Since joining SecurityScorecard, I have been more observant of the security related news that crosses my news feeds. 
