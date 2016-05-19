@@ -3,7 +3,7 @@ layout: post
 title: What I Learned At My First CTF
 author: Sean
 category: security
-date: '2016-05-18'
+date: '2016-05-16'
 tags:
 - ctf
 - learning
