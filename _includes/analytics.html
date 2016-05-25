@@ -10,10 +10,9 @@
 		ga('send', 'pageview', {
 		  'page': '{{ site.baseurl }}{{ page.url }}',
 		  'title': '{{ page.title | replace: "'", "\\'" }}'
-		})
+		});
 
- (function(){
-  $('a').click(function(e) {
+    $('a').click(function(e) {
     if (!$(this).prop("hostname").match(location.hostname)) {
       e.preventDefault();
       href = $(this).prop("href")
@@ -27,7 +26,6 @@
       });
     }
   });
-});
 	</script>
 	<!-- End Google Analytics -->
 
