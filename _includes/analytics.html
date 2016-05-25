@@ -12,20 +12,6 @@
 		  'title': '{{ page.title | replace: "'", "\\'" }}'
 		});
 
-    $('a').click(function(e) {
-    if (!$(this).prop("hostname").match(location.hostname)) {
-      e.preventDefault();
-      href = $(this).prop("href")
-      source = $(this).data("source")
-      if (source == null) {
-        source = ''
-      }
-      ga('send', 'event', 'External', href, source, {
-        'transport': 'beacon',
-        'hitCallback': function(){document.location = href;}
-      });
-    }
-  });
 	</script>
 	<!-- End Google Analytics -->
 
