@@ -12,7 +12,7 @@
 		  'title': '{{ page.title | replace: "'", "\\'" }}'
 		})
 
-$(function(){
+ (function(){
   $('a').click(function(e) {
     if (!$(this).prop("hostname").match(location.hostname)) {
       e.preventDefault();
