@@ -12,6 +12,19 @@
 		  'title': '{{ page.title | replace: "'", "\\'" }}'
 		});
 
+$(document).ready(function(){
+	$('.ga-link').on('click', function(){
+		if (typeof(ga)!=="undefined"){
+			ga('send',{
+				hitType: 'event',
+				eventCategory: 'click',
+				eventAction: 'outbound',
+				eventLabel: $(this).attr('href')
+			});	  		
+	  	}
+	});
+)};	
+
 	</script>
 	<!-- End Google Analytics -->
 
