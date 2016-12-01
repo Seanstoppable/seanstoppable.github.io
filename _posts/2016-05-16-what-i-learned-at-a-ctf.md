@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What I Learned At My First CTF
-author: Sean
+author: Seanstoppable
 category: security
 date: '2016-05-16'
 tags:

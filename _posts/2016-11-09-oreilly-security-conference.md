@@ -1,7 +1,7 @@
 ---
 layout: post
 title: O'Reilly Security Conference
-author: Sean
+author: Seanstoppable
 category: conference-writeup
 date: '2016-11-08'
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Security Roundup - The Beginning
-author: Sean
+author: Seanstoppable
 category: security-roundup
 date: '2016-01-01'
 ---
