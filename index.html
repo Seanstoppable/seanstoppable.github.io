@@ -18,10 +18,12 @@ layout: default
 
 <div class="pager">
   {% if paginator.previous_page %}
-    <a href="{{ BASE_PATH }}{{ paginator.previous_page_path }}" class="fa fa-chevron-left prev" title="Previous"></a>
+    <a href="{{ BASE_PATH }}{{ paginator.previous_page_path }}" class="fa fa-chevron-left prev"
+      title="Previous">Previous</a>
   {% endif %}
   <span class="count">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="{{ BASE_PATH }}{{ paginator.next_page_path }}" class="fa fa-chevron-right next" title="Next"></a>
+    <a href="{{ BASE_PATH }}{{ paginator.next_page_path }}" class="fa fa-chevron-right next"
+      title="Next">Next</a>
   {% endif %}
 </div>
