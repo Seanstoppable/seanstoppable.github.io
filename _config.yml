@@ -56,6 +56,8 @@ baseurl: ""
 #Don't want the standard separator
 excerpt_separator: <!–break–>
 
+paginate: 5
+
 permalink: /:year/:month/:day/:title
 
 # The release of Jekyll Now that you're using
