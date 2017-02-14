@@ -13,7 +13,7 @@
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
-  {% if post.tags contains t %}
+  {% if page.tags contains t %}
     <li><a href="{{ site.baseurl }}/tags#{{ t | downcase }}-ref">{{t | downcase | replace:" ","-" }}</a> has {{ posts | size }} posts</li>
   {% endif %}
 {% endfor %}
