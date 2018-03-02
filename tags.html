@@ -5,7 +5,14 @@ header: Posts By Tag
 group: navigation
 ---
 
-{% for tag in site.tags %}
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+
+{% for tag in sortedtags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
   <h2 id="{{ t | downcase }}-ref">
