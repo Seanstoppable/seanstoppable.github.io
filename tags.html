@@ -9,7 +9,7 @@ group: navigation
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
   <h2 id="{{ t | downcase }}-ref">
-    {{ t | downcase }}
+    {{ t | downcase }} ({{ posts.size }})
   </h2>
 <ul>
 {% for post in posts %}
